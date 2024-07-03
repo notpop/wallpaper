@@ -1,4 +1,4 @@
-# wallpaper
+# wallpaper for macbook
 
 ## 使い方
 1. 表示したい動画の設定<br>
