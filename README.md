@@ -1,7 +1,7 @@
 # wallpaper
 
 ## 使い方
-1. 表示したい動画の設定
+1. 表示したい動画の設定<br>
 以下ファイル内のパスを任意のものに変更してください。
 wallpaper/DynamicWallpaper/AppDelegate.swift
 ```
