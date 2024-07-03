@@ -14,6 +14,7 @@ let videoPath = "/Library/Application Support/com.apple.idleassetsd/Customer/4KS
 - [この辺](https://developer.apple.com/documentation/appkit/nswindow/level)とか参考にするとカスタマイズできるかも？
 - 基本的にAppDelegateをいじればカスタマイズできます。
 - `The app requires a more recent version of macOS. Please check the app's deployment target.`ってエラー出た時は、プロジェクトナビゲーターの「General」タブの「Minimum Deployments」とかを確認してください。または「macOS Deployment Target」辺りも確認してください。
+- 「pathは正しいのに動かない！」という方は、プロジェクトナビゲーター > Targets > Signing & Capabilities > App Sandbox > File Access Type > Downloads Folder > Read Onlyに変更していただくと読み込めるはずです
 
 ## Contributing
 問題や提案があればissueやPRをお待ちしております。
