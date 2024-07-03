@@ -1,0 +1,71 @@
+# Xcode
+#
+build/
+DerivedData/
+.idea/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+#
+.build/
+Package.resolved
+Packages/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods
+#
+# Uncomment the next line if you’re using CocoaPods.
+# Pods/
+# Add this line if you’re using CocoaPods via Bundle.
+# /.bundle/
+#
+# Add this line if you’re using CocoaPods via Podfile.lock.
+# Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio dependency management
+#
+.accio/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code Injection
+#
+# If you use Code Injection by Injection for Xcode remove the next line
+# https://github.com/johnno1962/injectionforxcode
+#
+iOSInjectionProject/
+
+# AppCode
+#
+.idea/
+
+# Xcode automatically generated schemes
+xcuserdata/
+
+# Lock file
+Package.pins
+
+# Other
+#
+*.swp
+*.lock
+.DS_Store
+userinterface.xcuserstate
