@@ -2,7 +2,7 @@
 
 ## 使い方
 1. 表示したい動画の設定<br>
-以下ファイル内のパスを任意のものに変更してください。
+以下ファイル内のパスを任意のものに変更してください。<br>
 wallpaper/DynamicWallpaper/AppDelegate.swift
 ```
 let videoPath = "/Library/Application Support/com.apple.idleassetsd/Customer/4KSDR240FPS/97447D85-960C-4B2A-A101-048284D95853.mov"
